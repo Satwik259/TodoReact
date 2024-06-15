@@ -112,12 +112,12 @@ const Todolist = () => {
     <div className="max-w-md mx-auto mt-8 h-[27rem] bg-amber-300 rounded-xl">
       <h1 className="text-2xl text-center font-bold mb-4 ">To-Do List</h1>
      
-      <div className="space-y-4 flex justify-center">
+      <div className="space-y-4 ">
         {finallist.map((item, i) => (
            <Draggable axis="y" key={item.id} >
           <div
-            key={item.id} // Use item.id as key since each item should have a unique ID
-            className="bg-white p-4 shadow-md rounded-md w-[26rem] flex items-center justify-between"
+            key={item.id} 
+            className="bg-white p-4 shadow-md rounded-md  flex items-center justify-between"
           >
             <h2 className="text-lg font-semibold">{item.newItem}</h2>
             <div>
