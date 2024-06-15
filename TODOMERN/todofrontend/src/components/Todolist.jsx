@@ -109,7 +109,7 @@ const Todolist = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 h-[27rem] bg-amber-300 rounded-xl">
+    <div className="max-w-md mx-auto mt-8 h-[27rem] bg-violet-300 rounded-xl">
       <h1 className="text-2xl text-center font-bold mb-4 ">To-Do List</h1>
      
       <div className="space-y-4 ">
